@@ -22,7 +22,7 @@ USER_ID can be found at https://api.github.com/users/your_github_user_name
 ### 4. Create a new Github Repository
 This repository will contain the library files
 
-### 4. Add Publishing Gradle Task
+### 4. Update the Publishing Gradle Task
 **This task already exists in build.gradle (com.inkryptvideos.android).**
 
 You just need to replace repository name, username, artifact ID and group ID if needed.
@@ -50,7 +50,7 @@ afterEvaluate {
     
                     // Replace with the name of your library
                     artifactId 'inkryptvideos-android'
-                    version '2.7'
+                    version '2.8'
                 }
     
             }
@@ -82,5 +82,3 @@ You can either do it from the terminal by executing:
 Or from the Gradle side panel:
 
 **Inkryptvideos Android > inkryptvideos-android > Tasks > publishing > publishReleasePublicationToGitHubPackagesRepository**
-
-
