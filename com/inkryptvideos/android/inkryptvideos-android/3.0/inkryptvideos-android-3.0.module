@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.inkryptvideos.android",
+    "module": "inkryptvideos-android",
+    "version": "3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inkryptvideos-android-3.0.aar",
+          "url": "inkryptvideos-android-3.0.aar",
+          "size": 194465,
+          "sha512": "837e9602dca420ca8dc8e6e5ac33a7ad46f397ca977efaee10be4a06aa8468576a2b21fe1a09b34151a3e6bbe87e953a44755b6d16f70ffede0b1cb4ad29633b",
+          "sha256": "4f8e6133d6fd29829228a2935534142e15ea74845541e6f87994b18375d639f0",
+          "sha1": "cef539c821976c913b0b6f5f32f2cd70432c9902",
+          "md5": "3369708f6fa053b3801268929302feac"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.0.0-beta03"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.0.0-beta03"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-dash",
+          "version": {
+            "requires": "1.0.0-beta03"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material-icons-extended",
+          "version": {
+            "requires": "1.4.0-alpha03"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-datasource-okhttp",
+          "version": {
+            "requires": "1.0.0-beta03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "inkryptvideos-android-3.0.aar",
+          "url": "inkryptvideos-android-3.0.aar",
+          "size": 194465,
+          "sha512": "837e9602dca420ca8dc8e6e5ac33a7ad46f397ca977efaee10be4a06aa8468576a2b21fe1a09b34151a3e6bbe87e953a44755b6d16f70ffede0b1cb4ad29633b",
+          "sha256": "4f8e6133d6fd29829228a2935534142e15ea74845541e6f87994b18375d639f0",
+          "sha1": "cef539c821976c913b0b6f5f32f2cd70432c9902",
+          "md5": "3369708f6fa053b3801268929302feac"
+        }
+      ]
+    }
+  ]
+}
